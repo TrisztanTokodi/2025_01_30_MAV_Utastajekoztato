@@ -5,6 +5,8 @@ table {
     /* betűszín */
     font-family: 'Courier New', Courier, monospace;
     /* betűstílus  */
-    font-size: 20px;
+    font-size: 21px;
     /* betűméret */
 }
+
+td {background-color: rgb(49, 70, 19);}
