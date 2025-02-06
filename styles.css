@@ -10,3 +10,11 @@ table {
 }
 
 td {background-color: rgb(49, 70, 19);}
+
+#keses {
+    background-color: red;
+}
+
+.elso_oszlop {
+    background-color:darkolivegreen;
+}
