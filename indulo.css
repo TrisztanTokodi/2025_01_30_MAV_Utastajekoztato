@@ -1,0 +1,11 @@
+#fejlec1 {
+    border-bottom: 3px;
+    border-color: green;
+    background-color: blue;
+    color: blanchedalmond;
+    /* betűszín */
+    font-family: 'Courier New', Courier, monospace;
+    /* betűstílus  */
+    font-size: 21px;
+    /* betűméret */
+}
