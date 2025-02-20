@@ -1,5 +1,5 @@
 table {
-    border: 1px solid;
+    border: 3px solid;
     background-color: green;
     color: blanchedalmond;
     /* betűszín */
@@ -9,12 +9,19 @@ table {
     /* betűméret */
 }
 
-td {background-color: rgb(49, 70, 19);}
+/* td {background-color: rgb(49, 70, 19);} */
 
-#keses {
-    background-color: red;
+#keso_indulo_vonat {
+    background-color: rgb(206, 24, 206);
 }
 
-.elso_oszlop {
+.elso_oszlop{
     background-color:darkolivegreen;
+}
+
+table, td, th{
+
+    border: 2px black;
+    border-collapse: collapse;
+    border-style: solid;
 }

@@ -1,29 +1,51 @@
-#fejlec1 {
+/* #fejlec1 {
     border: 3px solid;
     background-color: blue;
     color: blanchedalmond;
-    /* betűszín */
+    /* betűszín 
     font-family: 'Courier New', Courier, monospace;
-    /* betűstílus  */
+    /* betűstílus  
     font-size: 21px;
-    /* betűméret */
-}
+    /* betűméret 
+} */
 
-#fejlec2 {
+ /* #fejlec2{
     border: 3px solid;
     background-color: rgba(1, 132, 255, 0.986);
     color: blanchedalmond;
-    /* betűszín */
+    /* betűszín 
     font-family: 'Courier New', Courier, monospace;
-    /* betűstílus  */
+    /* betűstílus  
     font-size: 21px;
-    /* betűméret */
-}
-
+    /* betűméret 
+} */
+ 
 #megjott {
     background-color: green;
 }
 
 #nemjott {
-    background-color: red;
+    background-color: rgb(197, 20, 182);
+}
+
+table, td, th{
+    border: 3px black;
+    border-style: solid;
+    border-collapse: collapse;
+}
+
+tbody tr:nth-child(even) {
+    background-color: rgb(55, 151, 168);
+}
+
+tbody tr:nth-child(odd) {
+    background-color: rgb(38, 98, 209);
+}
+
+thead tr:nth-child(even) {
+    background-color: rgb(55, 151, 168);
+}
+
+thead tr:nth-child(odd) {
+    background-color: rgb(38, 98, 209);
 }

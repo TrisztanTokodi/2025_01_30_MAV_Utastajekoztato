@@ -10,10 +10,29 @@
     <table>
         <thead>
             <tr id="fejlec1">
-                <th>08:43:10</th>
+                <th><body onload="startTime()">
+                    <div id="txt"></div>
+                    
+                    <script>
+                    function startTime() {
+                      const today = new Date();
+                      let h = today.getHours();
+                      let m = today.getMinutes();
+                      let s = today.getSeconds();
+                      m = checkTime(m);
+                      s = checkTime(s);
+                      document.getElementById('txt').innerHTML =  h + ":" + m + ":" + s;
+                      setTimeout(startTime, 1000);
+                    }
+                    
+                    function checkTime(i) {
+                      if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+                      return i;
+                    }
+                    </script>
+                    </th>
                 <th>Indulás</th>
-                <th>Induló Járatok</th>
-                <th></th>
+                <th colspan="2">Induló Járatok</th>
                 <th>Departures</th>
                 <th><img src="post_máv.jpg" alt="MÁV" width="75" title="MÁV Logo"></th>
             </tr>

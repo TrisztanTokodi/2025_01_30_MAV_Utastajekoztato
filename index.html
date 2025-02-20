@@ -10,11 +10,28 @@
     <table>
         <thead>
             <tr>
-                <th>8:43:13</th>
-                <th>MÁV induló járatok</th>
-                <th></th>
-                <th></th>
-                <th></th>
+                <th><body onload="startTime()">
+                    <div id="txt"></div>
+                    
+                    <script>
+                    function startTime() {
+                      const today = new Date();
+                      let h = today.getHours();
+                      let m = today.getMinutes();
+                      let s = today.getSeconds();
+                      m = checkTime(m);
+                      s = checkTime(s);
+                      document.getElementById('txt').innerHTML =  h + ":" + m + ":" + s;
+                      setTimeout(startTime, 1000);
+                    }
+                    
+                    function checkTime(i) {
+                      if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+                      return i;
+                    }
+                    </script>
+                    </th>
+                <th colspan="4">MÁV induló járatok</th>
                 <th><img src="post_máv.jpg" alt="Máv logo" width="75" title="Máv logo"></th>
             </tr>
             <tr>
@@ -29,25 +46,25 @@
         </thead>
 
         <tbody>
-            <tr>
-                <td class="elso_oszlop">8:30</td>
-                <td id="keses">8:42</td>
+            <tr class="elso_oszlop">
+                <td>8:30</td>
+                <td id="keso_indulo_vonat">8:42</td>
                 <td>IC</td>
                 <td>Szeged</td>
                 <td>Szatymaz- <br>
                     Kistelek</td>
                 <td>5</td>
             </tr>
-            <tr>
-                <td class="elso_oszlop">9:22</td>
+            <tr class="elso_oszlop">
+                <td>9:22</td>
                 <td></td>
                 <td>SZ</td>
                 <td>Szentes</td>
                 <td>Csongrád</td>
                 <td>2</td>
             </tr>
-            <tr>
-                <td class="elso_oszlop">9:22</td>
+            <tr class="elso_oszlop">
+                <td>9:22</td>
                 <td></td>
                 <td>IC</td>
                 <td>Szeged</td>
@@ -55,16 +72,16 @@
                     Kistelek</td>
                 <td>4</td>
             </tr>
-            <tr>
-                <td class="elso_oszlop">9:24</td>
+            <tr class="elso_oszlop">
+                <td>9:24</td>
                 <td></td>
                 <td>SZ</td>
                 <td>Lakitelek</td>
                 <td>Tiszaalpár</td> 
                 <td>1</td>
             </tr>
-            <tr>
-                <td class="elso_oszlop">9:27</td>
+            <tr class="elso_oszlop">
+                <td>>9:27</td>
                 <td></td>
                 <td>IC</td>
                 <td>Nyugati** <br> 
@@ -73,8 +90,8 @@
                 Kecskemét</td>
                 <td>5</td>
             </tr>
-            <tr>
-                <td class="elso_oszlop">9:30</td>
+            <tr class="elso_oszlop">
+                <td>9:30</td>
                 <td></td>
                 <td>IC</td>
                 <td>Szeged</td>
