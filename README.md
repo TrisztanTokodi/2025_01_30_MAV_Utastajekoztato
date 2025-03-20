@@ -4,6 +4,7 @@ Ez e felület útmutatást ad a MÁV induló és érkező járatainka megtekint�
 
 ### ⚒️ Használat
 Csak meg kell nyitni az adott github linket hogy elérd az aktuális adatokat
+
 Példa: `https://github.com/TrisztanTokodi/2025_01_30_MAV_Utastajekoztato/`
 
 ### 🏠 Alap HTML szerkezet
@@ -23,5 +24,7 @@ Példa: `https://github.com/TrisztanTokodi/2025_01_30_MAV_Utastajekoztato/`
 
 ### 👷 Fejlesztési lehetőségek
 -[X] 🌀 Dinamikus adatbetöltés API-n keresztűl
+
 -[ ] 🔎 Keresési és szűrési lehetőségek
+
 -[X] 🤳 Reszponzív megjelenítés mobileszközökre
