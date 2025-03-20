@@ -23,8 +23,8 @@ Példa: `https://github.com/TrisztanTokodi/2025_01_30_MAV_Utastajekoztato/`
 ![alt text](https://1000logos.net/wp-content/uploads/2021/05/GitHub-logo.png)
 
 ### 👷 Fejlesztési lehetőségek
--[X] 🌀 Dinamikus adatbetöltés API-n keresztűl
+- [X] 🌀 Dinamikus adatbetöltés API-n keresztűl
 
--[ ] 🔎 Keresési és szűrési lehetőségek
+- [ ] 🔎 Keresési és szűrési lehetőségek
 
--[X] 🤳 Reszponzív megjelenítés mobileszközökre
+- [X] 🤳 Reszponzív megjelenítés mobileszközökre
